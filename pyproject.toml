@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+name = "mcqgenerator"
+version = "0.0.1"
+packages = ["mcqgenerator"]
+install_requires = [
+    "openai",
+    "langchain",
+    "streamlit",
+    "python-dotenv",
+    "PyPDF2"
+]
